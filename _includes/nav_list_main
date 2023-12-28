@@ -11,8 +11,8 @@
             <span class="nav__sub-title">C++</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Start" %}
-                        <li><a href="/categories/Start" class="">C++책 ({{category[1].size}})</a></li>
+                    {% if category[0] == "C++_book" %}
+                        <li><a href="/categories/C++_book" class="">C++책 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
