@@ -1,10 +1,10 @@
 ---
-title : "기초"
+title : "CS"
 layout : archive
-permalink : categories/Start
+permalink : categories/CS
 author_profile : true
 sidebar_main : true
 ---
 
-{% assign posts = site.categories.Start %}
+{% assign posts = site.categories.CS %}
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}
